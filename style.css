@@ -1,0 +1,74 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    background: rgb(216, 225, 238);
+}
+
+body{
+    padding: 80px 0 20px 0;
+    text-align: center;
+}
+
+section{
+    height: 650px;
+    background: white;
+    margin: 0 445px;
+    border-radius: 4%;
+}
+
+img{
+    width: 90%;
+    border-radius: 5%;
+    margin-top: 20px;
+}
+
+p{
+    line-height: 25px;
+}
+
+.firstp{
+    font-size: 22px;
+    font-weight: bolder;
+    padding: 20px  90px 0;
+}
+
+.secondp{
+    color: grey;
+    padding: 20px  90px 0;
+}
+
+div{
+    padding: 50px 100px 0;
+}
+
+
+
+@media screen and (max-width: 390px){
+    section{
+        height: 600px;
+        width: 90%;
+        margin: 0 18px;
+        margin-bottom: 30px;
+    }
+
+    .firstp{
+        padding: 20px 50px
+    }
+
+    .secondp{
+        font-size: 18px;
+        padding: 0 40px
+    }
+}
+    
+@media screen and (max-width: 480px) {
+    section{
+        width: 90%;
+        margin: 0 18px
+    }
+}
+
